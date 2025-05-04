@@ -60,5 +60,36 @@ cd DiabetesPrediction
 
 2. Install the required packages:
 
-bashpip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
+Usage
+Running the main script:
+
+```python main.py
+```
+
+This will execute the complete pipeline: data preprocessing, model training, and evaluation.
+Using the notebooks:
+To explore the data and understand the model comparison process, you can run the Jupyter notebooks in the notebooks directory:
+
+```bash
+jupyter notebook notebooks/data_exploration.ipynb
+```
+
+Results
+The project compares several machine learning models for diabetes prediction. Performance metrics are evaluated using:
+
+Accuracy
+Precision
+Recall
+F1-score
+ROC-AUC
+
+The final model achieves an accuracy of approximately 78% on the test set, with balanced precision and recall scores.
+
+Acknowledgments
+
+The original dataset is from the National Institute of Diabetes and Digestive and Kidney Diseases
+Inspiration from various healthcare machine learning applications
